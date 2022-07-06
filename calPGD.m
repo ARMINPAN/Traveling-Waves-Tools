@@ -1,4 +1,6 @@
 function PGD = calPGD(py,px)
+
+    % px and py is gradient of phase towards x and y axis
     
     % remove nans
     px(isnan(py)) = nan;
